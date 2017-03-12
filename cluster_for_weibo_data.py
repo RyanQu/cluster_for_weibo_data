@@ -377,7 +377,7 @@ if __name__ == '__main__':
     #print jaccardCoeff(recordVSMs[0], recordVSMs[1])
     
     #randK = randWeiboCent(recordVSMs, 3)
-    '''
+    
     centroids, clusterAssment = weibokMeans(recordVSMs, 3, jaccardCoeff)
     #centroids, clusterAssment = weibokMeans(recordVSMs, 3)
    
@@ -387,17 +387,17 @@ if __name__ == '__main__':
 
     for i in centroids:
         print datMat[i][1]
-    '''
+    
 
-    for vec in recordVSMs:
-        single_pass(vec, 0.03)
+    # for vec in recordVSMs:
+    #     single_pass(vec, 0.03)
 
-    print numTopic
-    #print dictTopic
+    # print numTopic
+    # #print dictTopic
 
-    for i in range(5):
-        for key in  dictTopic[i][0]:
-            print key[0]
-        print '---------------------'
+    # for i in range(5):
+    #     for key in  dictTopic[i][0]:
+    #         print key[0]
+    #     print '---------------------'
     #print dictTopic
     
