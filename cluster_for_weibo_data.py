@@ -13,7 +13,7 @@ def loadWeiboData(fileName):
     with open(fileName) as f:
         for line in f:
             #print line
-            i  += 1
+            i += 1
             lineSplit = line.strip().split(',')
             #print lineSplit
       
